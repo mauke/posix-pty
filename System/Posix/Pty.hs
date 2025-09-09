@@ -328,7 +328,7 @@ with 'Pty'@s@ created by this module.
 [queryTerminal] Useless, 'Pty' is always a terminal.
 
 [openPseudoTerminal] Only useful for the kind of tasks this module is supposed
-abstract away.
+to abstract away.
 
 In addition, some functions from "System.Posix.Terminal" work directly with
 'Fd'@s@, these have been hidden and instead the following replacements working
